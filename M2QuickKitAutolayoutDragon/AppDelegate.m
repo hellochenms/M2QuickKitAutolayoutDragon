@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "M7DebugLogFormatter.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +18,8 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    [self prepareForLog];
+    
     return YES;
 }
 
@@ -41,5 +44,24 @@
 - (void)applicationWillTerminate:(UIApplication *)application {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
+
+#pragma mark - init
+- (void)prepareForLog {
+    //    [DDLog addLogger:[DDASLLogger sharedInstance] withLevel:DDLogLevelInfo];
+#ifdef DEBUG
+    [DDTTYLogger sharedInstance].logFormatter = [M7DebugLogFormatter new];
+    [DDLog addLogger:[DDTTYLogger sharedInstance] withLevel:DDLogLevelDebug];
+#else
+    [DDTTYLogger sharedInstance].logFormatter = nil;
+    [DDLog addLogger:[DDTTYLogger sharedInstance] withLevel:DDLogLevelWarning];
+#endif
+    [[DDTTYLogger sharedInstance] setColorsEnabled:YES];
+    [[DDTTYLogger sharedInstance] setForegroundColor:[UIColor colorWithRed:0x25 / 255.0 green:0xaa / 255.0 blue:0x15 / 255.0 alpha:1] backgroundColor:nil forFlag:DDLogFlagInfo];
+    [[DDTTYLogger sharedInstance] setForegroundColor:[UIColor blueColor] backgroundColor:nil forFlag:DDLogFlagDebug];
+    [[DDTTYLogger sharedInstance] setForegroundColor:[UIColor grayColor] backgroundColor:nil forFlag:DDLogFlagVerbose];
+    
+    DDLogError(@"test log");
+}
+
 
 @end

@@ -14,6 +14,14 @@
 		1A36C06C1B85B443001B7A58 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A36C06B1B85B443001B7A58 /* Images.xcassets */; };
 		1A36C06F1B85B443001B7A58 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A36C06D1B85B443001B7A58 /* LaunchScreen.xib */; };
 		1A36C07B1B85B443001B7A58 /* M2QuickKitAutolayoutDragonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A36C07A1B85B443001B7A58 /* M2QuickKitAutolayoutDragonTests.m */; };
+		1A36C0941B85C028001B7A58 /* XibUseCodeAutolayoutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A36C0921B85C028001B7A58 /* XibUseCodeAutolayoutViewController.m */; };
+		1A36C0951B85C028001B7A58 /* XibUseCodeAutolayoutViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A36C0931B85C028001B7A58 /* XibUseCodeAutolayoutViewController.xib */; };
+		1A36C0981B85C03B001B7A58 /* CodeAutolayoutView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A36C0971B85C03B001B7A58 /* CodeAutolayoutView.m */; };
+		1A36C09C1B85C10A001B7A58 /* M7DebugLogFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A36C09B1B85C10A001B7A58 /* M7DebugLogFormatter.m */; };
+		1A36C0A01B85CF70001B7A58 /* XibPlaceHolderViewCodeAddXibViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A36C09E1B85CF70001B7A58 /* XibPlaceHolderViewCodeAddXibViewController.m */; };
+		1A36C0A11B85CF70001B7A58 /* XibPlaceHolderViewCodeAddXibViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A36C09F1B85CF70001B7A58 /* XibPlaceHolderViewCodeAddXibViewController.xib */; };
+		1A36C0A41B85D076001B7A58 /* XibAutolayoutView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A36C0A31B85D076001B7A58 /* XibAutolayoutView.m */; };
+		1A36C0A61B85D089001B7A58 /* XibAutolayoutView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A36C0A51B85D089001B7A58 /* XibAutolayoutView.xib */; };
 		9028F516837561FF1A6A7ED5 /* libPods-M2QuickKitAutolayoutDragon.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 55F21237B58E373FA499185E /* libPods-M2QuickKitAutolayoutDragon.a */; };
 /* End PBXBuildFile section */
 
@@ -42,6 +50,19 @@
 		1A36C0791B85B443001B7A58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1A36C07A1B85B443001B7A58 /* M2QuickKitAutolayoutDragonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = M2QuickKitAutolayoutDragonTests.m; sourceTree = "<group>"; };
 		1A36C08E1B85B4EF001B7A58 /* M2QuickKitAutolayoutDragon.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = M2QuickKitAutolayoutDragon.pch; sourceTree = "<group>"; };
+		1A36C0911B85C028001B7A58 /* XibUseCodeAutolayoutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XibUseCodeAutolayoutViewController.h; sourceTree = "<group>"; };
+		1A36C0921B85C028001B7A58 /* XibUseCodeAutolayoutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XibUseCodeAutolayoutViewController.m; sourceTree = "<group>"; };
+		1A36C0931B85C028001B7A58 /* XibUseCodeAutolayoutViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XibUseCodeAutolayoutViewController.xib; sourceTree = "<group>"; };
+		1A36C0961B85C03B001B7A58 /* CodeAutolayoutView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CodeAutolayoutView.h; sourceTree = "<group>"; };
+		1A36C0971B85C03B001B7A58 /* CodeAutolayoutView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CodeAutolayoutView.m; sourceTree = "<group>"; };
+		1A36C09A1B85C10A001B7A58 /* M7DebugLogFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = M7DebugLogFormatter.h; sourceTree = "<group>"; };
+		1A36C09B1B85C10A001B7A58 /* M7DebugLogFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = M7DebugLogFormatter.m; sourceTree = "<group>"; };
+		1A36C09D1B85CF70001B7A58 /* XibPlaceHolderViewCodeAddXibViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XibPlaceHolderViewCodeAddXibViewController.h; sourceTree = "<group>"; };
+		1A36C09E1B85CF70001B7A58 /* XibPlaceHolderViewCodeAddXibViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XibPlaceHolderViewCodeAddXibViewController.m; sourceTree = "<group>"; };
+		1A36C09F1B85CF70001B7A58 /* XibPlaceHolderViewCodeAddXibViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XibPlaceHolderViewCodeAddXibViewController.xib; sourceTree = "<group>"; };
+		1A36C0A21B85D076001B7A58 /* XibAutolayoutView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XibAutolayoutView.h; sourceTree = "<group>"; };
+		1A36C0A31B85D076001B7A58 /* XibAutolayoutView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XibAutolayoutView.m; sourceTree = "<group>"; };
+		1A36C0A51B85D089001B7A58 /* XibAutolayoutView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XibAutolayoutView.xib; sourceTree = "<group>"; };
 		55F21237B58E373FA499185E /* libPods-M2QuickKitAutolayoutDragon.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-M2QuickKitAutolayoutDragon.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		731F0D534382CCE974C1B7AE /* Pods-M2QuickKitAutolayoutDragon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-M2QuickKitAutolayoutDragon.debug.xcconfig"; path = "Pods/Target Support Files/Pods-M2QuickKitAutolayoutDragon/Pods-M2QuickKitAutolayoutDragon.debug.xcconfig"; sourceTree = "<group>"; };
 		E7AF1ED70DAB28BFE6CFC278 /* Pods-M2QuickKitAutolayoutDragon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-M2QuickKitAutolayoutDragon.release.xcconfig"; path = "Pods/Target Support Files/Pods-M2QuickKitAutolayoutDragon/Pods-M2QuickKitAutolayoutDragon.release.xcconfig"; sourceTree = "<group>"; };
@@ -196,6 +217,7 @@
 		1A36C08B1B85B4A6001B7A58 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				1A36C0991B85C10A001B7A58 /* Log */,
 			);
 			name = Utils;
 			path = Src/Utils;
@@ -219,6 +241,12 @@
 		1A36C08F1B85B7EA001B7A58 /* XibPlaceHolderViewCodeAddXib */ = {
 			isa = PBXGroup;
 			children = (
+				1A36C09D1B85CF70001B7A58 /* XibPlaceHolderViewCodeAddXibViewController.h */,
+				1A36C09E1B85CF70001B7A58 /* XibPlaceHolderViewCodeAddXibViewController.m */,
+				1A36C09F1B85CF70001B7A58 /* XibPlaceHolderViewCodeAddXibViewController.xib */,
+				1A36C0A21B85D076001B7A58 /* XibAutolayoutView.h */,
+				1A36C0A31B85D076001B7A58 /* XibAutolayoutView.m */,
+				1A36C0A51B85D089001B7A58 /* XibAutolayoutView.xib */,
 			);
 			path = XibPlaceHolderViewCodeAddXib;
 			sourceTree = "<group>";
@@ -226,8 +254,22 @@
 		1A36C0901B85B7EA001B7A58 /* XibUseCodeAutolayoutView */ = {
 			isa = PBXGroup;
 			children = (
+				1A36C0911B85C028001B7A58 /* XibUseCodeAutolayoutViewController.h */,
+				1A36C0921B85C028001B7A58 /* XibUseCodeAutolayoutViewController.m */,
+				1A36C0931B85C028001B7A58 /* XibUseCodeAutolayoutViewController.xib */,
+				1A36C0961B85C03B001B7A58 /* CodeAutolayoutView.h */,
+				1A36C0971B85C03B001B7A58 /* CodeAutolayoutView.m */,
 			);
 			path = XibUseCodeAutolayoutView;
+			sourceTree = "<group>";
+		};
+		1A36C0991B85C10A001B7A58 /* Log */ = {
+			isa = PBXGroup;
+			children = (
+				1A36C09A1B85C10A001B7A58 /* M7DebugLogFormatter.h */,
+				1A36C09B1B85C10A001B7A58 /* M7DebugLogFormatter.m */,
+			);
+			path = Log;
 			sourceTree = "<group>";
 		};
 		6790FF31016882D6141A5DE8 /* Frameworks */ = {
@@ -329,9 +371,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A36C0951B85C028001B7A58 /* XibUseCodeAutolayoutViewController.xib in Resources */,
 				1A36C06A1B85B443001B7A58 /* Main.storyboard in Resources */,
 				1A36C06F1B85B443001B7A58 /* LaunchScreen.xib in Resources */,
+				1A36C0A11B85CF70001B7A58 /* XibPlaceHolderViewCodeAddXibViewController.xib in Resources */,
 				1A36C06C1B85B443001B7A58 /* Images.xcassets in Resources */,
+				1A36C0A61B85D089001B7A58 /* XibAutolayoutView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -382,9 +427,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A36C0941B85C028001B7A58 /* XibUseCodeAutolayoutViewController.m in Sources */,
 				1A36C0671B85B443001B7A58 /* ViewController.m in Sources */,
+				1A36C0A01B85CF70001B7A58 /* XibPlaceHolderViewCodeAddXibViewController.m in Sources */,
+				1A36C0A41B85D076001B7A58 /* XibAutolayoutView.m in Sources */,
 				1A36C0641B85B443001B7A58 /* AppDelegate.m in Sources */,
 				1A36C0611B85B443001B7A58 /* main.m in Sources */,
+				1A36C0981B85C03B001B7A58 /* CodeAutolayoutView.m in Sources */,
+				1A36C09C1B85C10A001B7A58 /* M7DebugLogFormatter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
